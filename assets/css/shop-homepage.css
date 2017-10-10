@@ -1,0 +1,209 @@
+/*
+    General Style
+*/
+
+.user_card{
+    background-color: #FFFFFF;
+    position: relative;
+    min-height: 1px
+    border-color: #DDDDDD;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+body{
+    background-color: #f0f0f0;
+}
+
+/*!
+  Menu Cart Items Styles
+ */
+
+ ul.dropdown-cart{
+     min-width:250px;
+     background-color: white;
+ }
+ ul.dropdown-cart li .item{
+     display:block;
+     padding: 10px 10px 10px 10px;
+     margin: 3px 0;
+ }
+ ul.dropdown-cart li .item:hover{
+     background-color:#f3f3f3;
+ }
+ ul.dropdown-cart li .item:after{
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+ }
+
+ ul.dropdown-cart li .item-left{
+     float:left;
+ }
+ ul.dropdown-cart li .item-left img,
+ ul.dropdown-cart li .item-left span.item-info{
+     float:left;
+ }
+ ul.dropdown-cart li .item-left span.item-info{
+     margin-left:10px;
+ }
+ ul.dropdown-cart li .item-left span.item-info span{
+     display:block;
+ }
+ ul.dropdown-cart li .item-right{
+     float:right;
+ }
+ ul.dropdown-cart li .item-right button{
+     margin-top:14px;
+ }
+
+
+/*!
+ Card Item Style */
+
+h4{
+  font-weight: 600;
+}
+p{
+font-size: 12px;
+margin-top: 5px;
+
+}
+.price{
+font-size: 20px;
+  margin: 0 auto;
+  color: #333;
+}
+.right{
+float:right;
+}
+.thumbnail{
+opacity:0.70;
+-webkit-transition: all 0.5s;
+transition: all 0.5s;
+}
+.thumbnail:hover{
+opacity:1.00;
+box-shadow: 0px 0px 10px #009688;
+}
+.line{
+margin-bottom: 5px;
+}
+@media screen and (max-width: 770px) {
+.right{
+  float:left;
+  width: 100%;
+}
+}
+
+.card-item-content{
+  margin: 10px 10px 10px 10px;
+}
+
+.img_item{
+  max-width: 500px;
+  max-height: 400px;
+}
+
+/* 
+    Card Vien Product
+*/
+.product_view .modal-dialog{max-width: 800px; width: 100%;}
+.pre-cost{text-decoration: line-through; color: #a5a5a5;}
+.space-ten{padding: 10px 0;}
+
+/*
+    Services Page
+*/
+
+@import "//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css"
+
+@import "//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css";
+.box > .icon { 
+    text-align: 
+    center; 
+    position: 
+    relative; 
+    }
+.box > .icon > .image { 
+    position: relative; 
+    z-index: 2; 
+    margin: auto; 
+    width: 88px; 
+    height: 88px; 
+    border: 8px solid white; 
+    line-height: 88px; 
+    border-radius: 50%; 
+    background: #428bca; 
+    vertical-align: middle; 
+    }
+.box > .icon > .image > i { 
+    font-size: 36px !important; 
+    color: #fff !important; 
+    }
+.box > .icon:hover > .image > i { 
+    color: white !important; 
+    }
+.box > .icon > .info { 
+    margin-top: -24px; 
+    background: rgba(0, 0, 0, 0.04); 
+    border: 1px solid #e0e0e0; 
+    padding: 15px 0 10px 0; 
+    }
+.box > .icon > .info > h3.title { 
+    font-family: sans-serif !important; 
+    font-size: 16px; 
+    color: #222; 
+    font-weight: 500; 
+    }
+.box > .icon > .info > p { 
+    font-family: sans-serif !important; 
+    font-size: 13px; 
+    color: #666; 
+    line-height: 1.5em; 
+    margin: 20px;
+    }
+.box > .icon:hover > .info > h3.title, .box > .icon:hover > .info > p, .box > .icon:hover > .info > .more > a { 
+    color: #222; 
+    }
+.box > .icon > .info > .more a { 
+    font-family: sans-serif !important; 
+    font-size: 12px; 
+    color: #222; 
+    line-height: 12px; 
+    text-transform: uppercase; 
+    text-decoration: none; 
+    }
+.box > .icon:hover > .info > .more > a { 
+    color: #fff; 
+    padding: 6px 8px; 
+    background-color: #63B76C; 
+    }
+.box .space { 
+    height: 30px; 
+    }
+
+.modal-header-primary {
+    color:#fff;
+    padding:9px 15px;
+    border-bottom:1px solid #eee;
+    background-color: #428bca;
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-topright: 5px;
+     border-top-left-radius: 5px;
+     border-top-right-radius: 5px;
+}
+
+/*
+    Profile Pages CSS
+*/
+
